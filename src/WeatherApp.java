@@ -2,7 +2,7 @@ import java.io.IOException;
 
 public class WeatherApp {
     public static void main(String[] args) {
-        String city = "wrocław";
+        String city = "wrocław" ;
         try {
             WeatherApi api = new WeatherApi();
             int temperature = api.getTemperature(city);
