@@ -9,6 +9,11 @@ public class WeatherInfo {
         this.temperature = temperature;
     }
 
+    @Override
+    public String toString() {
+        return city + ";" + temperature + ";" + description+"\n";
+    }
+
     public String getCity() {
         return city;
     }
